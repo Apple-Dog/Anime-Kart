@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
-      <script src="https://cdn.tailwindcss.com"></script>
-      <script>
-        tailwind.config = {
-        content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
           }
         }
-      </script>
-      <title>Anime Kart</title>
-   </head>
-   <body>
-      <div class="box flex item-center justify-center h-screen">
-         <div class="inner-box flex flex-col item-center justify-center">
-            <div class="container">
-                <img class="px-4" src="./Logo.png" width="480" alt="logo" />
-                <h1 class="px-4 mt-4 text-[3.5rem] leading-[5.1rem] text-center font-['Caveat'] font-semibold">Comming Soon</h1>
-            </div>
-         </div>
+      }
+    }
+  </script>
+  <title>Anime Kart</title>
+</head>
+
+<body>
+  <div class="box flex item-center justify-center h-screen">
+    <div class="inner-box flex flex-col item-center justify-center">
+      <div class="container">
+        <img class="px-4" src="./Logo.png" width="480" alt="logo" />
+        <h1 class="px-4 mt-4 text-[3.5rem] leading-[5.1rem] text-center font-['Caveat'] font-semibold">Comming Soon</h1>
       </div>
-      
-   </body>
+    </div>
+  </div>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LKM71JD964"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-LKM71JD964');
+  </script>
+</body>
+
 </html>
